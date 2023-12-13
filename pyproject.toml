@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-starter-pack-helper"
+version = "0.1.0"
+description = ""
+authors = ["LorAutumn <lorenz.herbst@gmx.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.350"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
