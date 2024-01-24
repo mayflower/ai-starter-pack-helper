@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ai_starter_pack_helper"
-version = "0.1.5"
+version = "0.1.6"
 description = ""
 authors = ["LorAutumn <lorenz.herbst@gmx.net>"]
 readme = "README.md"

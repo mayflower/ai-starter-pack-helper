@@ -5,4 +5,5 @@ def get_llm(apikey):
     return ChatOpenAI(verbose=True, model="gpt-4", api_key=apikey, streaming=True)
 
 
-print(get_llm(1234))
+def get_llm_gpt4_turbo(apikey):
+    return ChatOpenAI(verbose=True, model="gpt-4-1106-preview", api_key=apikey, streaming=True)
